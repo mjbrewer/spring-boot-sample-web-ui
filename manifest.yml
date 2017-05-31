@@ -1,0 +1,11 @@
+---
+applications:
+- name: spring-boot-web-ui-mjbrewer
+  instances: 1
+  host: spring-boot-sample-web-ui-mjbrewer
+  path: spring-boot/spring-boot-samples/spring-boot-sample-web-ui
+  command: mvn package
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  disk_quota: 1024M
